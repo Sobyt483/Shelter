@@ -1,0 +1,70 @@
+.help-container {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+.help-header {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.help-list-container{
+    max-width: 102.9rem;
+    gap: 5.5rem 12rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon-container{
+    display: grid;
+    max-width: max-content;
+    grid-template-rows: repeat(2, max-content);
+    gap: 3rem;
+    &>:first-child{
+        justify-self: center;
+    }
+    &>:last-child{
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (max-width: $tablet){
+    .help-container {
+        padding: 8rem 6.9rem 10rem 6.9rem;
+    }
+    .help-list-container{
+        max-width: 63rem;
+        justify-content: flex-start;
+        column-gap: 6rem;
+        row-gap: 5.5rem;
+    }
+    .icon-container{
+        &>:last-child{
+            width: 17rem;
+        }
+    }
+}
+
+@media (max-width: $mobile){
+    .help-container {
+        padding: 4.2rem 1.5rem 4.2rem 1.5rem;
+    }
+    .help-header {
+        margin-bottom: 4.1rem;
+    }
+    .pet-icon {
+        height: 50px;
+    }
+    .help-list-container{
+        max-width: 29rem;
+        justify-content: flex-start;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+    .icon-container{
+        gap: 2rem;
+        &>:last-child{
+            width: 13rem;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family:'Arial';
+    src: url('assets/fonts/Arial.eot');
+	src: url('assets/fonts/Arial Italic.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Arial Italic.woff2') format('woff2'),
+		url('assets/fonts/Arial Italic.woff') format('woff'),
+		url('assets/fonts/Arial Italic.ttf') format('truetype'),
+		url('assets/fonts/Arial Italic.svg#Arial Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family:'Arial';
+    src: url('assets/fonts/Arial.eot');
+	src: url('assets/fonts/Arial.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Arial.woff2') format('woff2'),
+		url('assets/fonts/Arial.woff') format('woff'),
+		url('assets/fonts/Arial.ttf') format('truetype'),
+		url('assets/fonts/Arial.svg#Arial') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Georgia';
+    src: url('assets/fonts/Georgia Italic.eot');
+	src: url('assets/fonts/Georgia Italic.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Georgia Italic.woff2') format('woff2'),
+		url('assets/fonts/Georgia Italic.woff') format('woff'),
+		url('assets/fonts/Georgia Italic.svg#Georgia Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+}
+
+@font-face {
+    font-family:'Georgia';
+    src: url('assets/fonts/Georgia.eot');
+	src: url('assets/fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Georgia.woff2') format('woff2'),
+		url('assets/fonts/Georgia.woff') format('woff'),
+		url('assets/fonts/Georgia.svg#Georgia') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+}

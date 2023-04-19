@@ -1,0 +1,73 @@
+.slider-cont{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.slider-next{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+}
+.slider-cur{
+    position: relative;
+    left: 0%;
+    flex-grow: 1;
+    opacity: 0;
+}
+.cur {
+    left: 0;
+    opacity: 1;
+}
+.animation-right {
+    animation: slide-right 1s;
+}
+@keyframes slide-right {
+    0% {
+        left: 0%;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 1;
+    }
+}
+.animation-left {
+    animation: slide-left 1s;
+}
+@keyframes slide-left {
+    0% {
+        left: 0%;
+        opacity: 1;
+    }
+    100% {
+        left: -100%;
+        opacity: 1;
+    }
+}
+.animation-right-center {
+    animation: slide-right-center 1s;
+}
+@keyframes slide-right-center {
+    0% {
+        left: 100%;
+        opacity: 1;
+    }
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+.animation-left-center {
+    animation: slide-left-center 1s;
+}
+@keyframes slide-left-center {
+    0% {
+        left: -100%;
+        opacity: 1;
+    }
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}

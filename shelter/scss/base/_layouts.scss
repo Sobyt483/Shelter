@@ -1,0 +1,19 @@
+.layout-2 {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+}
+.layout-3-rows {
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+}
+.layout-3 {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+}
+
+@media (max-width: $tablet){
+    .layout-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, max-content);
+    }
+}

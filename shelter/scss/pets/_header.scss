@@ -1,0 +1,38 @@
+.header-pets-page{
+    background: none;
+    background-color: $white;
+    padding-bottom: 3rem;
+}
+.nav-link-petspage{
+    color: $color-dark-l
+}
+.nav-link-petspage:active {
+    color: $color-dark-3xl;
+}
+.logo-name-petspage{
+    color: $color-dark-l;
+    transition: 0.3s all;
+}
+.logo-text-petspage {
+    color: $color-dark-3xl;
+}
+.logo-container:active {
+    &>:first-child{
+        &>:first-child{
+            color: $maincolor;
+        }
+    }
+}
+
+@media (hover: hover) {
+    .nav-link-petspage:hover {
+        color: $color-dark-3xl;
+    }
+    .logo-container:hover {
+        &>:first-child{
+            &>:first-child{
+                color: $maincolor;
+            }
+        }
+    }
+}

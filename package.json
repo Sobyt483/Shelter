@@ -1,0 +1,19 @@
+{
+  "name": "sobyt483-jsfe2023q1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch shelter/scss/style.scss shelter/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/sobyt483-JSFE2023Q1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/sobyt483-JSFE2023Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/sobyt483-JSFE2023Q1#readme"
+}

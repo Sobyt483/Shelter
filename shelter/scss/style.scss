@@ -1,0 +1,18 @@
+@import "base/constants.scss";
+@import 'base/fonts.scss';
+@import "base/base";
+@import "base/layouts.scss";
+@import "base/burger";
+@import "base/slider.scss";
+@import "base/popup";
+
+@import "main/header";
+@import "main/start";
+@import "main/about";
+@import "main/pets";
+@import "main/help";
+@import "main/donation";
+@import "main/footer";
+
+@import "pets/header";
+@import "pets/pets";
